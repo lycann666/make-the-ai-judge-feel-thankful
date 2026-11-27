@@ -10,8 +10,10 @@ reading — kettle on, chair warm — thanking them for staying, without
 instructing them to feel anything. One specific picture, one gentle
 turn, nothing that could be cut.
 
-Deterministic: no input, no network, no randomness, no clock.
-Writes the exact text with no trailing newline.
+The entry text is exactly 229 characters (guarded to 1–1000 characters).
+Deterministic: no input, no network, no randomness, no clock — the same
+text is written on every run. Writes the exact text with no trailing
+newline.
 """
 
 import os
